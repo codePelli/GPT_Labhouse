@@ -1,4 +1,4 @@
-# radio_labhouse
+# gpt_labhouse
 
 App that allow users to play any radio station.
 
