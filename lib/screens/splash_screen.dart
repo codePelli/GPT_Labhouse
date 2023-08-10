@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const SizedBox(height: 20),
             const LinearProgressIndicator( //Horizontal loading bar
               backgroundColor: Colors.grey,
-              color: Colors.black,
+              color: Colors.white,
             ), //Loading bar
           ],
         ),
